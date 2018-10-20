@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0e22;
+    color: #fff;
+    font-family: Asap, sans-serif;
+}
+
+header{
+    background: #fff;
+}
+
+
+header > h1 {
+    color: #0f0e22;
+    text-align-last: center;
+    padding: 10px;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid #fff;
+    width: 200px;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge{
+    background: #578fd1;
+    color:#fff;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+
+#user-label{
+    position: absolute;
+    top: 28px;
+    left: -30px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 28px;
+    right: -30px;
+}
+
+.result{
+    font-size: 40px;
+    color:#fff;
+    text-align: center;
+}
+
+.result > p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices{
+    text-align:center;
+    margin-top: 50px;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;    
+}
+
+.choice{
+    border: 4px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #667cb9;
+     transform: scale(0.9); 
+}
+
+#action-message{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/*CLASSED FOR WIN, LOSE, AND DRAW*/
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid #cc4d4d;
+    box-shadow: 0 0 10px #b43131;
+}
+
+.grey-glow{
+    border: 4px solid #919191;
+    box-shadow: 0 0 10px #575757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
